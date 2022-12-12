@@ -6,9 +6,6 @@ simplest 1 step v2ray setup. v2ray一键脚本
 1. ssh to vps
 2. run v2ray at port 9000 for example
 ```
-git clone https://github.com/melaniedxu/v2ray-simple-script.git
-cd ~/v2ray-simple-script.git
-chmod 755 v2ray.sh
-./v2ray.sh 9000
+apt-get install -y curl && bash <(curl -L https://raw.githubusercontent.com/melaniedxu/v2ray-simple-script/main/v2ray.sh)
 ```
 3. use v2ray client (vmess) to connect
