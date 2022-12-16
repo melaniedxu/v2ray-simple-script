@@ -32,7 +32,7 @@ curl --socks5 127.0.0.1:9001 https://ipinfo.io # inside vps
 1. ssh to vps
 2. run v2ray at port 9000 for example
 ```
-apt-get install -y curl && bash <(curl -L https://raw.githubusercontent.com/melaniedxu/v2ray-simple-script/main/v2ray.sh)
+apt-get install -y curl && bash <(curl -L https://raw.githubusercontent.com/melaniedxu/v2ray-simple-script/main/v2ray.sh) $PORT_NUMBER $PROXY_ADDR $PROXY_PORT
 ```
 3. use v2ray client (vmess) to connect
 
